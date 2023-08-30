@@ -1,0 +1,379 @@
+                                    * {
+                                        margin: 0px;
+                                        padding: 0px;
+                                        text-decoration: none;
+                                    }
+                                    /* Navigasi bar */
+                                    
+                                    .wrapper {
+                                        width: 100%;
+                                        height: 80px;
+                                        margin: auto;
+                                        background-color: brown;
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        padding: 5px;
+                                        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+                                    }
+                                    
+                                    .kiri {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                    }
+                                    
+                                    .kiri>img {
+                                        height: 60px;
+                                        width: 70px;
+                                        padding: 5px;
+                                    }
+                                    
+                                    .kiri>h1 {
+                                        font-size: 20px;
+                                        padding: 5px;
+                                        color: white;
+                                    }
+                                    
+                                    ul {
+                                        padding: 10px;
+                                        display: flex;
+                                        flex-direction: row;
+                                        list-style-type: none;
+                                    }
+                                    
+                                    ul>li>a {
+                                        padding: 10px;
+                                        color: white;
+                                    }
+                                    
+                                    ul>img {
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 40px;
+                                        padding: 6px;
+                                    }
+                                    
+                                    .active,
+                                    .hover {
+                                        color: white;
+                                        transition: 0.5s;
+                                        padding: 10px;
+                                        margin: 5px;
+                                        background-color: goldenrod;
+                                    }
+                                    /* Content */
+                                    
+                                    .content {
+                                        width: 100%;
+                                        height: 100vh;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        background: url('bg.new.jpg');
+                                        background-size: cover;
+                                        color: white;
+                                        padding: auto;
+                                    }
+                                    
+                                    .isi>h2 {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    /*SPACE*/
+                                    
+                                    .space1 {
+                                        width: 100%;
+                                        height: 5vh;
+                                        background-color: brown;
+                                    }
+                                    /*Akses*/
+                                    
+                                    .layanan {
+                                        margin: 25px;
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                    }
+                                    /**/
+                                    
+                                    .akses-cepat>h2 {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .akses-cepat>center {
+                                        font-family: Georgia, 'Times New Roman', Times, serif;
+                                        font-weight: 300;
+                                    }
+                                    
+                                    .bagian-layanan {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .menu-layanan {
+                                        width: 50%;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        padding: 5px;
+                                    }
+                                    
+                                    .visi,
+                                    .layanan-online,
+                                    .lokasi {
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    
+                                    .tab-layanan {
+                                        display: flex;
+                                        width: 110px;
+                                        height: 100px;
+                                    }
+                                    /*footer*/
+                                    
+                                    .wrapper2 {
+                                        width: 100%;
+                                        background-color: brown;
+                                        font-family: 'montserrat', sans-serif;
+                                    }
+                                    
+                                    .footer {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        background-color: brown;
+                                    }
+                                    
+                                    .judul {
+                                        font-weight: 900;
+                                        color: white;
+                                        list-style-type: none;
+                                    }
+                                    
+                                    .brand2 {
+                                        display: flex;
+                                        flex-direction: row;
+                                        padding: 20px;
+                                        align-items: center;
+                                    }
+                                    
+                                    .kontak {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .kontak>h4 {
+                                        padding: 15px;
+                                    }
+                                    
+                                    .beforefoot {
+                                        padding: 15px;
+                                        color: white;
+                                        text-decoration: none;
+                                        font-size: small;
+                                    }
+                                    
+                                    .beforefoot>h2>a {
+                                        color: white;
+                                    }
+                                    
+                                    .visimisi {
+                                        color: black;
+                                    }
+                                    
+                                    .lokasi {
+                                        color: black;
+                                    }
+                                    
+                                    .halaman-layanan {
+                                        color: black;
+                                    }
+                                    /*footer*/
+                                    
+                                    footer {
+                                        display: flex;
+                                        height: 50px;
+                                        background-color: black;
+                                        color: white;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .logo>img {
+                                        height: 60px;
+                                        width: 70px;
+                                        padding: 5px;
+                                    }
+                                    /*halaman2*/
+                                    
+                                    .halaman2-body {
+                                        background: url(bg-sejarah.jpg) no-repeat;
+                                        background-size: cover;
+                                        background-position: center;
+                                    }
+                                    
+                                    .container {
+                                        background-color: transparent;
+                                        backdrop-filter: blur(3px);
+                                    }
+                                    /*halaman4*/
+                                    
+                                    form {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        min-height: 100vh;
+                                        background: url(gardu2.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        list-style-type: none;
+                                    }
+                                    
+                                    form>li {
+                                        width: 420px;
+                                        background: transparent;
+                                        border: 2px solid rgba(255, 255, 255, 0.2);
+                                        backdrop-filter: blur(1px);
+                                        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+                                        color: white;
+                                        border-radius: 20px;
+                                        padding: 30px 40px;
+                                    }
+                                    
+                                    form>li>h1 {
+                                        font-size: 36px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .input-box {
+                                        position: relative;
+                                        width: 90%;
+                                        height: 50px;
+                                        background-color: transparent;
+                                        margin: 30px;
+                                    }
+                                    
+                                    .input-box input {
+                                        width: 100%;
+                                        height: 100%;
+                                        background: transparent;
+                                        border: none;
+                                        outline: none;
+                                        border: 2px solid rgba(255, 255, 255, 0.2);
+                                        border-radius: 50px;
+                                        font-size: 16px;
+                                        color: white;
+                                    }
+                                    
+                                    .input-box input::placeholder {
+                                        color: white;
+                                    }
+                                    
+                                    .input-box i {
+                                        position: absolute;
+                                        right: 20px;
+                                        top: 50%;
+                                        transform: translateY(-50);
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .password {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        font-size: 14.5px;
+                                        margin: -15px 0 15px;
+                                    }
+                                    
+                                    .password a {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .password a:hover {
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    .btn {
+                                        width: 100%;
+                                        height: 45px;
+                                        background-color: white;
+                                        border: none;
+                                        outline: none;
+                                        border-radius: 40px;
+                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                        font-size: 16px;
+                                        color: black;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .Register {
+                                        font-size: 14.5px;
+                                        text-align: center;
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .Register p a {
+                                        color: white;
+                                        text-decoration: none;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .Register p a:hover {
+                                        text-decoration: underline;
+                                    }
+                                    /*halaman-layanan-online*/
+                                    
+                                    .layanan-surat {
+                                        background: url(bg-layanan.jpg) no-repeat;
+                                        background-position: center;
+                                        background-size: cover;
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    
+                                    .tata-cara {
+                                        display: inline;
+                                        color: white;
+                                        padding: 50px;
+                                        backdrop-filter: blur(3px);
+                                    }
+                                    
+                                    .link-surat {
+                                        display: inline;
+                                        padding: 10px;
+                                        background-color: goldenrod;
+                                        border-radius: 40px;
+                                    }
+                                    /*pemerintahan*/
+                                    
+                                    .Pemerintahan {
+                                        background: url(bggold.png) no-repeat;
+                                        background-size: cover;
+                                        background-position: center;
+                                    }
+                                    
+                                    .last-page {
+                                        background: url(hahaha.jpg) no-repeat;
+                                        background-size: cover;
+                                        background-position: center;
+                                    }
+                                    
+                                    .isi-last {
+                                        display: inline;
+                                        padding: 100px;
+                                    }
+                                    
+                                    .Misi-center {
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
